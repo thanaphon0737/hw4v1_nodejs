@@ -14,7 +14,8 @@ const server = http.createServer((req, res) => {
 
   // get file extension
   let extname = path.extname(filePath);
-
+    
+  
   // initial content type;
   let contentType = 'text/html';
   switch (extname) {
